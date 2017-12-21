@@ -1,0 +1,107 @@
+body {
+  font-family: 'Merriweather', serif;
+  color: #6d6e71;
+}
+
+.bg-dark {
+    background-color: #CC0000!important;
+}
+
+.justify {
+    text-align: justify;
+}
+
+body{
+  font-size: 12px;
+}
+
+.mapstyle
+  {
+        height: 400px;
+        width: 100%;
+  }
+
+.btn-secondary{
+  background-color: #CC0000!important;
+  border-color: #CC0000!important;
+}
+
+.btn-primary{
+  background-color: #CC0000!important;
+  border-color: #CC0000!important;
+}
+
+a{
+  color: #CC0000;
+}
+
+.dropdown-menu{
+  background-color: #CC0000!important;
+  border-color: #CC0000!important;
+  padding: 0;
+
+}
+
+.dropdown-item{
+  color: #fff;
+  font-weight: 100;
+  font-size: 12px;
+  opacity: 0.5;
+  padding: 0.2rem 0.5rem;
+}
+
+.dropdown-item:hover {
+  color: #fff;
+  font-weight: 100;
+  font-size: 12px;
+  opacity: 0.75;
+  padding: 0.2rem 0.5rem;
+  background: none;
+}
+
+.dropdown-item-active{
+  color: #fff;
+  font-weight: 100;
+  font-size: 12px;
+  display: block;
+  width: 100%;
+  padding: 0.2rem 0.5rem;
+  clear: both;
+  text-align: inherit;
+  white-space: nowrap;
+  background: none;
+  border: 0;
+}
+
+.dropdown-item-active:hover {
+  color: #fff;
+  font-weight: 100;
+  font-size: 12px;
+  display: block;
+  width: 100%;
+  padding: 0.2rem 0.5rem;
+  clear: both;
+  text-align: inherit;
+  white-space: nowrap;
+  background: none;
+  border: 0;
+  text-decoration: none;
+}
+
+@media (min-width: 350px) {
+  .d-md-block {
+    display: block !important;
+}
+
+<!-- attempt to hover highlight slow colour change-->
+
+
+ btn btn-lg btn-secondary btn-block {
+     color: #ffffff;
+     cursor: pointer;
+     text-align: center;
+     display: inline-block;
+     line-height: 35px;
+     background: #5ea12b;
+     padding: 0px 20px;
+     font-size: 18px;
